@@ -1,0 +1,26 @@
+{
+    "name": "htbasic",
+    "displayName": "htbasic",
+    "description": "Language support for HTBasic.",
+    "publisher": "kabyru",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "htbasic",
+            "aliases": ["HTBasic", "htbasic"],
+            "extensions": [".bas",".basic",".prg"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "htbasic",
+            "scopeName": "source.htbasic",
+            "path": "./syntaxes/HTBasic.tmLanguage"
+        }]
+    }
+}
