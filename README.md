@@ -1,1 +1,1 @@
-This extension provides syntax highlighting for the HTBasic langauge.
+This extension provides syntax highlighting for the HTBasic language.
